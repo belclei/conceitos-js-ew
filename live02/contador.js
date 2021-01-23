@@ -26,9 +26,7 @@
 
       const contadorProxy = new Proxy({
         valor: VALOR_INICIAL,
-        efetuarParada: () => {
-
-        }
+        efetuarParada: () => { }
       }, handler)
 
       return contadorProxy
